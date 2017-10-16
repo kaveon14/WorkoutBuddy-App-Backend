@@ -1,4 +1,4 @@
-<?php
+<?php5
     echo $_SERVER['SCRIPT_NAME'];
     $con = mysqli_connect('127.0.0.1','kaveon14','playstation31','WorkoutBuddy_database');
     

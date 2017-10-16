@@ -37,6 +37,7 @@ if(isset($_GET['apicall'])) {
             $response['message'] = 'Request successfully completed';
             $response['exercise_name'] = $db->getDefaultExercises();
             break;
+        
     }
     
 } else{

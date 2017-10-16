@@ -13,7 +13,7 @@ class DbOperation {
         
         $this->con = $db->connect();
     }
-    
+
     function getDefaultExercises() {
         $stmt = $this->con->prepare('SELECT exercise_name from WorkoutBuddy_defaultexercise');
         $stmt->execute();
