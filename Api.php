@@ -25,6 +25,8 @@ function isTheseParametersAvailable($params) {
 
 $response = array();
 
+$user_id = $_GET['userId'];
+
 
 if(isset($_GET['apicall'])) {
 
@@ -37,6 +39,13 @@ if(isset($_GET['apicall'])) {
             $response['message'] = 'Request successfully completed';
             $response['exercise_name'] = $db->getDefaultExercises();
             break;
+            
+        case 'getCustomExercises':
+            $db = new DbOperation();
+            $response['error'] = false;
+            $response['message'] = 'Request successfully completed';
+            $response['exercise'] = $db->getCustomExercises($user_id);
+            break;
         
     }
     
@@ -47,6 +56,4 @@ if(isset($_GET['apicall'])) {
  }
  
  echo json_encode($response);
-
-
 ?>
