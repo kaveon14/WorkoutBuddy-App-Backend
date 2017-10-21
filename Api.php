@@ -27,6 +27,8 @@ $response = array();
 
 $user_id = $_GET['userId'];
 
+$sub_workout_id = $_GET['subWorkoutId'];
+
 
 if(isset($_GET['apicall'])) {
 
@@ -46,7 +48,12 @@ if(isset($_GET['apicall'])) {
             $response['message'] = 'Request successfully completed';
             $response['exercise'] = $db->getCustomExercises($user_id);
             break;
-        
+        case 'getSubWorkoutExercises':
+            $db = new DbOperation();
+            $response['error'] = false;
+            $response['message'] = 'Request successfully completed';
+            $response['exercise_name'] = $db->getSubWorkoutExercises($sub_workout_id);
+            break;
     }
     
 } else{
