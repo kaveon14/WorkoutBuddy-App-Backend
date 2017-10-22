@@ -14,16 +14,16 @@ class DbOperation {
     }
 
     function getDefaultExercises() {
-        $query = $this->con->prepare('SELECT exercise_name from WorkoutBuddy_defaultexercise');
+        $query = $this->con->prepare('SELECT exercise_name, exercise_description from WorkoutBuddy_defaultexercise');
         $query->execute();
-        $query->bind_result($exercise_name);
-        
+        $query->bind_result($exercise_name, $exercise_description);
+
         $exercises = array();
         
-    
         while($query->fetch()) {
             $exercise = array();
             $exercise['exercise_name'] = $exercise_name;
+            $exercise['exercise_description'] = $exercise_description;
     
             array_push($exercises,$exercise);
         }
@@ -45,6 +45,13 @@ class DbOperation {
             array_push($custom_exercises,$exercise);
         }
         return $custom_exercises;        
+    }
+    
+    function getAllExercises($user_id) {
+        $default_exercises = $this->getDefaultExercises();
+        $custom_exercises = $this->getCustomExercises($user_id);
+
+        return array_merge($default_exercises,$custom_exercises);
     }
     
     function getMainWorkoutNames($user_id) {
@@ -111,7 +118,6 @@ class DbOperation {
         $query = $this->con->prepare("SELECT exercise_name FROM WorkoutBuddy_defaultexercise where id IN('$de_ids')");
         $query->execute();
         $query->bind_result($de_name);
-        
         $exercises = array();
     
         while($query->fetch()) {

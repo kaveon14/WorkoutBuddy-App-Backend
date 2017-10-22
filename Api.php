@@ -35,18 +35,22 @@ if(isset($_GET['apicall'])) {
     switch($_GET['apicall']) {
             
         case 'getDefaultExercises':
-            
             $db = new DbOperation();
             $response['error'] = false;
             $response['message'] = 'Request successfully completed';
             $response['exercise_name'] = $db->getDefaultExercises();
             break;
-            
         case 'getCustomExercises':
             $db = new DbOperation();
             $response['error'] = false;
             $response['message'] = 'Request successfully completed';
-            $response['exercise'] = $db->getCustomExercises($user_id);
+            $response['exercise_name'] = $db->getCustomExercises($user_id);
+            break;
+        case 'getAllExercises':
+            $db = new DbOperation();
+            $response['error'] = false;
+            $response['message'] = 'Request successfully completed';
+            $response['exercise_name'] = $db->getAllExercises($user_id);
             break;
         case 'getSubWorkoutExercises':
             $db = new DbOperation();
