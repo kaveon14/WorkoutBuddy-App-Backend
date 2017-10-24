@@ -1,5 +1,5 @@
 <?php
-
+//split this class up
 require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperation.php';
 
 function isTheseParametersAvailable($params) {
@@ -57,6 +57,12 @@ if(isset($_GET['apicall'])) {
             $response['error'] = false;
             $response['message'] = 'Request successfully completed';
             $response['exercise_name'] = $db->getSubWorkoutExercises($sub_workout_id);
+            break;
+        case 'getGoalExercises':
+            $db = new DbOperation();
+            $response['error'] = false;
+            $response['message'] = 'Request successfully completed';
+            $response['wtf'] = $db->getGoalExercises($sub_workout_id);
             break;
     }
     

@@ -55,13 +55,14 @@ class DbOperation {
     }
     
     function getMainWorkoutNames($user_id) {
-        $query = $this->con->prepare("SELECT main_workout_name FROM WorkoutBuddy_mainworkout where user_profile_id='$user_id'");
+        $query = $this->con->prepare("SELECT main_workout_name,id FROM WorkoutBuddy_mainworkout where user_profile_id='$user_id'");
         $query->execute();
-        $query->bind_result($main_workout_name);
+        $query->bind_result($id,$main_workout_name);
         $main_workouts = array();
         
         while($query->fetch()) {
             $main_workout = array();
+            $main_workout['id'] = $id;
             $main_workout['MainWorkout'] = $main_workout_name;
             
             array_push($main_workouts, $main_workout);
@@ -70,13 +71,14 @@ class DbOperation {
     }
     
     private function getSubWorkoutNames($main_workout_id) {
-        $query = $this->con->prepare("SELECT sub_workout_name from WorkoutBuddy_subworkout where main_workout_id='$main_worokut_id'");
+        $query = $this->con->prepare("SELECT sub_workout_name,id from WorkoutBuddy_subworkout where main_workout_id='$main_worokut_id'");
         $query->execute();
-        $query->bind_results($sub_workout_name);
+        $query->bind_results($id,$sub_workout_name);
         $sub_workouts = array();
         
         while($query->fetch()) {
             $sub_workout = array();
+            $sub_workout['id'] = $id;
             $sub_workout['SubWorkout'] = $sub_workout_name;
             
             array_push($sub_workouts, $sub_workout);
@@ -112,34 +114,97 @@ class DbOperation {
         return $custom_exercise_ids;
     }
     
-    function getSubWorkoutExercises($sub_workout_id) {
+    function getSubWorkoutExercises($sub_workout_id) {//only return ex name
         $de_ids = $this->getSubWorkoutDefaultExerciseIds($sub_workout_id); 
         $de_ids = join("','",$de_ids);
-        $query = $this->con->prepare("SELECT exercise_name FROM WorkoutBuddy_defaultexercise where id IN('$de_ids')");
+        $query = $this->con->prepare("SELECT id,exercise_name FROM WorkoutBuddy_defaultexercise where id IN('$de_ids')");
         $query->execute();
-        $query->bind_result($de_name);
+        $query->bind_result($id,$de_name);
         $exercises = array();
     
         while($query->fetch()) {
             $arr = array();
+            $arr['id'] = $id;
             $arr['exercise_name'] = $de_name;
+            $arr['default'] = true;
             
             array_push($exercises, $arr);
         }
         
         $ce_ids = $this->getSubWorkoutCustomExerciseIds($sub_workout_id);
         $ce_ids = join("','", $ce_ids);
-        $query = $this->con->prepare("SELECT exercise_name FROM WorkoutBuddy_customexercise where id IN('$ce_ids')");
+        $query = $this->con->prepare("SELECT exercise_name,id FROM WorkoutBuddy_customexercise where id IN('$ce_ids')");
         $query->execute();
-        $query->bind_result($ce_name);
+        $query->bind_result($id,$ce_name);
         
         while($query->fetch()) {
             $arr = array();
+            $arr['id'] = $id;
             $arr['exercise_name'] = $ce_name;
+            $arr['default'] = false;
             
             array_push($exercises, $arr);
         }
         return $exercises;
+    }
+    
+    function getGoalExercises($sub_workout_id) {
+        
+        $exercises = $this->getSubWorkoutExercises($sub_workout_id);//change with a query to get names and ids
+        
+        $de_ids = array();
+        $de = array();
+        $ce_ids = array();
+        $ce = array();
+        $x = 0;
+        $z = 0;
+        foreach($exercises as $exercise) {//nice does exactly what is wanted
+            if($exercise['default']) {
+                $de[$x] = $exercise['exercise_name']; 
+                $de_ids[$x] = $exercise['id'];
+                $x++;
+            } else {
+                $ce_ids[$z] = $exercise['id'];
+                $ce[$z] = $exercise['exercise_name'];
+                $z++;
+            }
+        }
+        
+        $de_ids = join("','", $de_ids);
+        
+        $query = $this->con->prepare("SELECT id,goal_sets, goal_reps FROM WorkoutBuddy_exercisegoals WHERE default_exercise_id IN('$de_ids') AND sub_workout_id='$sub_workout_id'");
+        $query->execute();
+        $query->bind_result($id,$goal_sets,$goal_reps);
+        
+        $x = 0;
+        $exes = array();
+        while($query->fetch()) {//shit is not matchin up
+            $ex = array();
+            $ex['name'] = $de[$x];//not working  right
+            $ex['sets'] = $goal_sets;
+            $ex['reps'] = $goal_reps;
+            $x++;
+            array_push($exes, $ex);
+        }
+        
+        
+        
+        $ce_ids = join("','",$ce_ids);
+        $query = $this->con->prepare("SELECT goal_sets,goal_reps FROM WorkoutBuddy_exercisegoals where custom_exercise_id IN('$ce_ids') and sub_workout_id='$sub_workout_id'");
+        $query->execute();
+        $query->bind_result($goal_sets,$goal_reps);
+        
+        $x = 0;
+        while($query->fetch()) {
+            $exercise = array();
+            $exercise['name'] = $ce[$x];
+            $exercise['sets'] = $goal_sets;
+            $exercise['reps'] = $goal_reps;
+            
+            $x++;
+            array_push($exercises, $exercise);
+        }
+        return $exes;
     }
 }
 ?>
