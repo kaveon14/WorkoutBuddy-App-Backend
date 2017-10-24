@@ -2,7 +2,7 @@
 //split this class up
 require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperation.php';
 
-function isTheseParametersAvailable($params) {
+function isTheseParametersAvailable($params) {//still not sure of prupose
     $available = true;
     $missingParams = "";
     
@@ -34,7 +34,7 @@ if(isset($_GET['apicall'])) {
 
     switch($_GET['apicall']) {
             
-        case 'getDefaultExercises':
+        case 'getDefaultExercises'://exercise_name needs to be changed
             $db = new DbOperation();
             $response['error'] = false;
             $response['message'] = 'Request successfully completed';
@@ -62,11 +62,11 @@ if(isset($_GET['apicall'])) {
             $db = new DbOperation();
             $response['error'] = false;
             $response['message'] = 'Request successfully completed';
-            $response['wtf'] = $db->getGoalExercises($sub_workout_id);
+            $response['exercise_name'] = $db->getGoalExercises($sub_workout_id);
             break;
     }
     
-} else{
+} else {
 
  $response['error'] = true; 
  $response['message'] = 'Invalid API Call';

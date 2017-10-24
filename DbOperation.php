@@ -1,5 +1,5 @@
 <?php
-
+//refactor this class break it up like the 'Api' script
 class DbOperation {
     
     private $con;
@@ -100,7 +100,7 @@ class DbOperation {
         return $default_exercise_ids;
     }
     
-    function getSubWorkoutCustomExerciseIds($sub_workout_id) {
+    private function getSubWorkoutCustomExerciseIds($sub_workout_id) {
         $custom_exercise_query = $this->con->prepare("SELECT customexercise_id FROM WorkoutBuddy_subworkout_custom_exercises WHERE subworkout_id='$sub_workout_id'");
         $custom_exercise_query->execute();
         $custom_exercise_query->bind_result($ex_id);
@@ -147,11 +147,9 @@ class DbOperation {
         }
         return $exercises;
     }
-    
+
     function getGoalExercises($sub_workout_id) {
-        
         $exercises = $this->getSubWorkoutExercises($sub_workout_id);//change with a query to get names and ids
-        
         $de_ids = array();
         $de = array();
         $ce_ids = array();
@@ -171,7 +169,6 @@ class DbOperation {
         }
         
         $de_ids = join("','", $de_ids);
-        
         $query = $this->con->prepare("SELECT id,goal_sets, goal_reps FROM WorkoutBuddy_exercisegoals WHERE default_exercise_id IN('$de_ids') AND sub_workout_id='$sub_workout_id'");
         $query->execute();
         $query->bind_result($id,$goal_sets,$goal_reps);
@@ -180,14 +177,12 @@ class DbOperation {
         $exes = array();
         while($query->fetch()) {//shit is not matchin up
             $ex = array();
-            $ex['name'] = $de[$x];//not working  right
-            $ex['sets'] = $goal_sets;
-            $ex['reps'] = $goal_reps;
+            $ex['exercise_name'] = $de[$x];//not working  right
+            $ex['goal_sets'] = $goal_sets;
+            $ex['goal_reps'] = $goal_reps;
             $x++;
             array_push($exes, $ex);
         }
-        
-        
         
         $ce_ids = join("','",$ce_ids);
         $query = $this->con->prepare("SELECT goal_sets,goal_reps FROM WorkoutBuddy_exercisegoals where custom_exercise_id IN('$ce_ids') and sub_workout_id='$sub_workout_id'");
@@ -197,9 +192,9 @@ class DbOperation {
         $x = 0;
         while($query->fetch()) {
             $exercise = array();
-            $exercise['name'] = $ce[$x];
-            $exercise['sets'] = $goal_sets;
-            $exercise['reps'] = $goal_reps;
+            $exercise['exercise_name'] = $ce[$x];
+            $exercise['goal_sets'] = $goal_sets;
+            $exercise['goal_reps'] = $goal_reps;
             
             $x++;
             array_push($exercises, $exercise);
