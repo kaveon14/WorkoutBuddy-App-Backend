@@ -1,5 +1,5 @@
 <?php
-
+//add sub folders to better organize these files
 require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperation.php';
 
 $response = array();
