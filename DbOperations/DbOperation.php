@@ -24,6 +24,7 @@ class DbOperation {
             $exercise = array();
             $exercise['exercise_name'] = $exercise_name;
             $exercise['exercise_description'] = $exercise_description;
+            $exercise['default'] = true;
     
             array_push($exercises,$exercise);
         }
@@ -41,6 +42,7 @@ class DbOperation {
             $exercise = array();
             $exercise['exercise_name'] = $exercise_name;
             $exercise['exercise_description'] = $exercise_description;
+            $exercise['default'] = false;
 
             array_push($custom_exercises,$exercise);
         }
@@ -55,7 +57,7 @@ class DbOperation {
     }
     
     function getMainWorkoutNames($user_id) {
-        $query = $this->con->prepare("SELECT main_workout_name,id FROM WorkoutBuddy_mainworkout where user_profile_id='$user_id'");
+        $query = $this->con->prepare("SELECT id,main_workout_name FROM WorkoutBuddy_mainworkout where user_profile_id='$user_id' or user_profile_id IS NULL");
         $query->execute();
         $query->bind_result($id,$main_workout_name);
         $main_workouts = array();
@@ -63,23 +65,23 @@ class DbOperation {
         while($query->fetch()) {
             $main_workout = array();
             $main_workout['id'] = $id;
-            $main_workout['MainWorkout'] = $main_workout_name;
+            $main_workout['main_workout_name'] = $main_workout_name;
             
             array_push($main_workouts, $main_workout);
         }
         return $main_workouts;
     }
     
-    private function getSubWorkoutNames($main_workout_id) {
-        $query = $this->con->prepare("SELECT sub_workout_name,id from WorkoutBuddy_subworkout where main_workout_id='$main_worokut_id'");
+    function getSubWorkoutNames($main_workout_id) {
+        $query = $this->con->prepare("SELECT id,sub_workout_name from WorkoutBuddy_subworkout where main_workout_id='$main_workout_id'");
         $query->execute();
-        $query->bind_results($id,$sub_workout_name);
+        $query->bind_result($id,$sub_workout_name);
         $sub_workouts = array();
         
         while($query->fetch()) {
             $sub_workout = array();
             $sub_workout['id'] = $id;
-            $sub_workout['SubWorkout'] = $sub_workout_name;
+            $sub_workout['sub_workout_name'] = $sub_workout_name;
             
             array_push($sub_workouts, $sub_workout);
         }

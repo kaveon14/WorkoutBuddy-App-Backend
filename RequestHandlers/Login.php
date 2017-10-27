@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__).'/DbConnect.php';
+require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperations/DbConnect.php';
 
 $connection = new DbConnect();
 $con = $connection->connect();

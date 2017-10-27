@@ -1,5 +1,5 @@
 <?php
-require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperation.php';
+require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperations/DbOperation.php';
 
 $response = array();
 
@@ -27,18 +27,6 @@ if(isset($_GET['request'])) {
             $response['error'] = false;
             $response['message'] = 'Request successfully completed';
             $response[$request_response] = $db->getAllExercises($user_id);
-            break;
-        case 'getSubWorkoutExercises':
-            $db = new DbOperation();
-            $response['error'] = false;
-            $response['message'] = 'Request successfully completed';
-            $response[$request_response] = $db->getSubWorkoutExercises($sub_workout_id);
-            break;
-        case 'getGoalExercises':
-            $db = new DbOperation();
-            $response['error'] = false;
-            $response['message'] = 'Request successfully completed';
-            $response[$request_response] = $db->getGoalExercises($sub_workout_id);
             break;
     }
 } else {

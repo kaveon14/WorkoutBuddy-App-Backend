@@ -1,6 +1,6 @@
 <?php
 //split this class up
-require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperation.php';
+require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperations/DbOperation.php';
 
 function isTheseParametersAvailable($params) {//still not sure of prupose
     $available = true;
