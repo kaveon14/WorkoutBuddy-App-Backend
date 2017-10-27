@@ -203,5 +203,27 @@ class DbOperation {
         }
         return $exes;
     }
+    
+    function getBodyData($user_id) {
+        $query = $this->con->prepare("SELECT id,date,weight,unit,chest_size,back_size,
+        arm_size,forearm_size,waist_size,quad_size,calf_size FROM WorkoutBuddy_bod WHERE profile_id='$user_id");
+        $query->execute();
+        $query->bind_result($id,$date,$weight,$unit,$chest_size,$back_size,
+        $arm_size,$forearm_size,$waist_size,$quad_size,$calf_size);
+        
+        while($query->fetch()) {
+            $body_data = array();
+            $body_data['date'] = $date;
+            $body_data['weight'] = $weight;
+            $body_data['unit'] = $unit;
+            $body_data['chest_size'] = $chest_size;
+            $body_data['back_size'] = $back_size;
+            $body_data['arm_size'] = $arm_size;
+            $body_data['forearm_size'] = $forearm_size;
+            $body_data['waist_size'] = $waist_size;
+            $body_data['quad_size'] = $quad_size;
+            $body_data['calf_size'] = $calf_size;
+        }
+    }
 }
 ?>
