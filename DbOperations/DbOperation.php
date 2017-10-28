@@ -14,7 +14,7 @@ class DbOperation {
     }
 
     function getDefaultExercises() {
-        $query = $this->con->prepare('SELECT exercise_name, exercise_description from WorkoutBuddy_defaultexercise');
+        $query = $this->con->prepare('SELECT exercise_name,exercise_description from WorkoutBuddy_defaultexercise');
         $query->execute();
         $query->bind_result($exercise_name, $exercise_description);
 
@@ -32,16 +32,18 @@ class DbOperation {
     }
     
     function getCustomExercises($user_id) {
-        $query = $this->con->prepare("SELECT exercise_name, exercise_description FROM WorkoutBuddy_customexercise where user_profile_id='$user_id' ");
+        $query = $this->con->prepare("SELECT WorkoutBuddy_customexercise.id,exercise_name,exercise_description,local_exercise_image FROM WorkoutBuddy_customexercise LEFT JOIN(WorkoutBuddy_customexerciseimage) ON (WorkoutBuddy_customexerciseimage.exercise_id = WorkoutBuddy_customexercise.id)");
         $query->execute();
-        $query->bind_result($exercise_name,$exercise_description);
+        $query->bind_result($id,$exercise_name,$exercise_description,$exercise_image);
         
         $custom_exercises = array();
         
         while($query->fetch()) {
             $exercise = array();
+            $exercise['id'] = $id;
             $exercise['exercise_name'] = $exercise_name;
             $exercise['exercise_description'] = $exercise_description;
+            $exercise['exercise_image'] = $exercise_image;
             $exercise['default'] = false;
 
             array_push($custom_exercises,$exercise);
@@ -177,9 +179,9 @@ class DbOperation {
         
         $x = 0;
         $exes = array();
-        while($query->fetch()) {//shit is not matchin up
+        while($query->fetch()) {
             $ex = array();
-            $ex['exercise_name'] = $de[$x];//not working  right
+            $ex['exercise_name'] = $de[$x];
             $ex['goal_sets'] = $goal_sets;
             $ex['goal_reps'] = $goal_reps;
             $x++;
