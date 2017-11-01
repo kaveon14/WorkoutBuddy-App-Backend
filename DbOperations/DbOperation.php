@@ -32,11 +32,11 @@ class DbOperation {
     }
     
     function getCustomExercises($user_id) {
-        $query = $this->con->prepare("SELECT WorkoutBuddy_customexercise.id,exercise_name,exercise_description,local_exercise_image FROM WorkoutBuddy_customexercise LEFT JOIN(WorkoutBuddy_customexerciseimage) ON (WorkoutBuddy_customexerciseimage.exercise_id = WorkoutBuddy_customexercise.id)");
+        $query = $this->con->prepare("SELECT WorkoutBuddy_customexercise.id,exercise_name,exercise_description,local_exercise_image FROM WorkoutBuddy_customexercise LEFT JOIN(WorkoutBuddy_customexerciseimage) ON (WorkoutBuddy_customexerciseimage.exercise_id = WorkoutBuddy_customexercise.id)  ");
         $query->execute();
         $query->bind_result($id,$exercise_name,$exercise_description,$exercise_image);
         
-        $custom_exercises = array();
+        $custom_exercises = array(); 
         
         while($query->fetch()) {
             $exercise = array();
@@ -152,7 +152,7 @@ class DbOperation {
         return $exercises;
     }
 
-    function getGoalExercises($sub_workout_id) {
+    function getGoalExercises($sub_workout_id) {//check this again
         $exercises = $this->getSubWorkoutExercises($sub_workout_id);//change with a query to get names and ids
         $de_ids = array();
         $de = array();
@@ -213,6 +213,8 @@ class DbOperation {
         $query->bind_result($id,$date,$weight,$unit,$chest_size,$back_size,
         $arm_size,$forearm_size,$waist_size,$quad_size,$calf_size);
         
+        $bodyStats = array();
+        
         while($query->fetch()) {
             $body_data = array();
             $body_data['date'] = $date;
@@ -225,7 +227,28 @@ class DbOperation {
             $body_data['waist_size'] = $waist_size;
             $body_data['quad_size'] = $quad_size;
             $body_data['calf_size'] = $calf_size;
+            
+            array_push($bodyStats, $body_data);
         }
+        return $bodyStats;
+    }
+    
+    function getProgressPhotos($user_id) {
+        $query = $this->con->prepare("SELECT id,date_time,local_photo FROM WorkoutBuddy_progressphoto WHERE user_profile_id='$user_id");
+        $query->execute();
+        $query->bind_result($id,$date_time,$local_photo);
+        
+        $photos = array();
+        
+        while($query->fetch()) {
+            $progressPhoto = array();
+            $progressPhoto['id'] = $id;
+            $progressPhoto['date_time'] = $date_time;
+            $progressPhoto['local_photo'] = $local_photo;
+            
+            array_push($photos, $progressPhoto);
+        }
+        return $photos;
     }
 }
 ?>
