@@ -233,7 +233,7 @@ class DbOperation {
         return $bodyStats;
     }
     
-    function getProgressPhotos($user_id) {
+    function getProgressPhotoPaths($user_id) {
         $query = $this->con->prepare("SELECT id,date_time,local_photo FROM WorkoutBuddy_progressphoto WHERE user_profile_id='$user_id");
         $query->execute();
         $query->bind_result($id,$date_time,$local_photo);
