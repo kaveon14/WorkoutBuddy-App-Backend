@@ -31,8 +31,9 @@ class DbOperation {
         return $exercises;
     }
     
-    function getCustomExercises($user_id) {
-        $query = $this->con->prepare("SELECT WorkoutBuddy_customexercise.id,exercise_name,exercise_description,local_exercise_image FROM WorkoutBuddy_customexercise LEFT JOIN(WorkoutBuddy_customexerciseimage) ON (WorkoutBuddy_customexerciseimage.exercise_id = WorkoutBuddy_customexercise.id)  ");
+    function getCustomExercises($user_id) {//this query is obseelte
+        $query = $this->con->prepare("SELECT id,exercise_name,exercise_description,local_exercise_image 
+          FROM WorkoutBuddy_customexercise WHERE user_profile_id='$user_id'");
         $query->execute();
         $query->bind_result($id,$exercise_name,$exercise_description,$exercise_image);
         
@@ -59,7 +60,8 @@ class DbOperation {
     }
     
     function getMainWorkoutNames($user_id) {
-        $query = $this->con->prepare("SELECT id,main_workout_name FROM WorkoutBuddy_mainworkout where user_profile_id='$user_id' or user_profile_id IS NULL");
+        $query = $this->con->prepare("SELECT id,main_workout_name FROM WorkoutBuddy_mainworkout 
+          where user_profile_id='$user_id' or user_profile_id IS NULL");
         $query->execute();
         $query->bind_result($id,$main_workout_name);
         $main_workouts = array();
@@ -75,7 +77,8 @@ class DbOperation {
     }
     
     function getSubWorkoutNames($main_workout_id) {
-        $query = $this->con->prepare("SELECT id,sub_workout_name from WorkoutBuddy_subworkout where main_workout_id='$main_workout_id'");
+        $query = $this->con->prepare("SELECT id,sub_workout_name from WorkoutBuddy_subworkout 
+          where main_workout_id='$main_workout_id'");
         $query->execute();
         $query->bind_result($id,$sub_workout_name);
         $sub_workouts = array();
@@ -91,7 +94,8 @@ class DbOperation {
     }
     
     private function getSubWorkoutDefaultExerciseIds($sub_workout_id) {
-        $default_exercise_query = $this->con->prepare("SELECT defaultexercise_id FROM WorkoutBuddy_subworkout_default_exercises WHERE subworkout_id='$sub_workout_id'");
+        $default_exercise_query = $this->con->prepare("SELECT defaultexercise_id 
+          FROM WorkoutBuddy_subworkout_default_exercises WHERE subworkout_id='$sub_workout_id'");
         $default_exercise_query->execute();
         $default_exercise_query->bind_result($default_ex_id);
         
@@ -105,7 +109,8 @@ class DbOperation {
     }
     
     private function getSubWorkoutCustomExerciseIds($sub_workout_id) {
-        $custom_exercise_query = $this->con->prepare("SELECT customexercise_id FROM WorkoutBuddy_subworkout_custom_exercises WHERE subworkout_id='$sub_workout_id'");
+        $custom_exercise_query = $this->con->prepare("SELECT customexercise_id 
+          FROM WorkoutBuddy_subworkout_custom_exercises WHERE subworkout_id='$sub_workout_id'");
         $custom_exercise_query->execute();
         $custom_exercise_query->bind_result($ex_id);
         
@@ -173,7 +178,8 @@ class DbOperation {
         }
         
         $de_ids = join("','", $de_ids);
-        $query = $this->con->prepare("SELECT id,goal_sets, goal_reps FROM WorkoutBuddy_exercisegoals WHERE default_exercise_id IN('$de_ids') AND sub_workout_id='$sub_workout_id'");
+        $query = $this->con->prepare("SELECT id,goal_sets, goal_reps FROM WorkoutBuddy_exercisegoals
+          WHERE default_exercise_id IN('$de_ids') AND sub_workout_id='$sub_workout_id'");
         $query->execute();
         $query->bind_result($id,$goal_sets,$goal_reps);
         
@@ -189,7 +195,8 @@ class DbOperation {
         }
         
         $ce_ids = join("','",$ce_ids);
-        $query = $this->con->prepare("SELECT goal_sets,goal_reps FROM WorkoutBuddy_exercisegoals where custom_exercise_id IN('$ce_ids') and sub_workout_id='$sub_workout_id'");
+        $query = $this->con->prepare("SELECT goal_sets,goal_reps FROM WorkoutBuddy_exercisegoals 
+          where custom_exercise_id IN('$ce_ids') and sub_workout_id='$sub_workout_id'");
         $query->execute();
         $query->bind_result($goal_sets,$goal_reps);
         
@@ -234,7 +241,8 @@ class DbOperation {
     }
     
     function getProgressPhotoPaths($user_id) {
-        $query = $this->con->prepare("SELECT id,date_time,local_photo FROM WorkoutBuddy_progressphoto WHERE user_profile_id='$user_id");
+        $query = $this->con->prepare("SELECT id,date_time,local_photo FROM WorkoutBuddy_progressphoto 
+          WHERE user_profile_id='$user_id'");
         $query->execute();
         $query->bind_result($id,$date_time,$local_photo);
         
@@ -249,6 +257,16 @@ class DbOperation {
             array_push($photos, $progressPhoto);
         }
         return $photos;
+    }
+
+    function saveProgressPhoto($user_id,$file_path,$date_time,$local_photo) {//which file path to pass in
+        $query = $this->con->prepare("INSERT INTO WorkoutBuddy_progressphoto(photo,date_time,local_photo,user_profile_id)
+          VALUES(?,?,?,?)");//need to save photo(site path),date_time,local_photo(local path),u ser_profile_id(userId)
+        $query->bind_param("ssss",$file_path,$date_time,$local_photo,$user_id);
+        if($query->execute()) {
+            return true;
+        }
+        return false;
     }
 }
 ?>

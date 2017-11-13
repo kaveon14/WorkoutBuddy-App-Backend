@@ -4,7 +4,7 @@ require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperations/DbO
 $response = array();
 
 $user_id = $_GET['userId'];
-$sub_workout_id = $_GET['subWorkoutId'];
+//$sub_workout_id = $_GET['subWorkoutId'];
 $request_response = 'RequestResponse';
 
 if(isset($_GET['request'])) {
@@ -31,8 +31,7 @@ if(isset($_GET['request'])) {
     }
 } else {
     $response['error'] = true; 
- $response['message'] = 'Invalid Request';
+    $response['message'] = 'Invalid Request';
 }
-
 echo json_encode($response);
 ?>

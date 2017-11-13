@@ -16,8 +16,8 @@ if(isset($_GET['request'])) {
             break;
     }
 } else {
-    $response['error'] = true; 
- $response['message'] = 'Invalid Request';
+$response['error'] = true;
+$response['message'] = 'Invalid Request';
 }
 
 echo json_encode($response);
