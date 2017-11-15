@@ -23,3 +23,5 @@ $response['message'] = 'Invalid Request';
 echo json_encode($response);
 
 ?>
+/Users/kaveon14/WorkoutBuddy/WorkoutBuddySite/UserMedia/media/user_1/ProgressPhotos
+
