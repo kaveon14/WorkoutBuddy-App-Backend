@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e89f5be9-73bf-43a5-a8fd-9feb43675cb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileDownloading/DownloadExercisePhoto.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DbOperations/Constants.php" afterPath="$PROJECT_DIR$/DbOperations/Constants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileDownloading/DownloadExercisePhoto.php" afterPath="$PROJECT_DIR$/FileDownloading/DownloadExercisePhoto.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileDownloading/DownloadProgressPhoto.php" afterPath="$PROJECT_DIR$/FileDownloading/DownloadProgressPhoto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileUploading/UploadProgressPhoto.php" afterPath="$PROJECT_DIR$/FileUploading/UploadProgressPhoto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RequestHandlers/ProgressPhotoRequestHandler.php" afterPath="$PROJECT_DIR$/RequestHandlers/ProgressPhotoRequestHandler.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,34 +33,8 @@
             <entry file="file://$PROJECT_DIR$/RequestHandlers/ProgressPhotoRequestHandler.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
-                  <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+                  <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DbOperation.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/DbOperations/DbOperation.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3960">
-                  <caret line="264" column="32" lean-forward="false" selection-start-line="264" selection-start-column="32" selection-end-line="264" selection-end-column="32" />
-                  <folding>
-                    <marker date="1510538974508" expanded="true" signature="373:448" ph="SELECT exerc... WorkoutBuddy_defaultexercise" />
-                    <marker date="1510538974508" expanded="true" signature="1027:1169" ph="SELECT id,ex... WorkoutBuddy_customexercise" />
-                    <marker date="1510538974508" expanded="true" signature="2116:2244" ph="SELECT id,ma... WorkoutBuddy_mainworkout" />
-                    <marker date="1510538974508" expanded="true" signature="2759:2866" ph="SELECT id,su... WorkoutBuddy_subworkout" />
-                    <marker date="1510538974508" expanded="true" signature="3408:3529" ph="SELECT defau... WorkoutBuddy_subworkout_default_exercises" />
-                    <marker date="1510538974508" expanded="true" signature="4025:4144" ph="SELECT custo... WorkoutBuddy_subworkout_custom_exercises" />
-                    <marker date="1510538974508" expanded="true" signature="4723:4803" ph="SELECT id,ex... WorkoutBuddy_defaultexercise" />
-                    <marker date="1510538974508" expanded="true" signature="5311:5390" ph="SELECT exerc... WorkoutBuddy_customexercise" />
-                    <marker date="1510538974508" expanded="true" signature="6551:6700" ph="SELECT id,go... WorkoutBuddy_exercisegoals" />
-                    <marker date="1510538974508" expanded="true" signature="7177:7322" ph="SELECT goal_... WorkoutBuddy_exercisegoals" />
-                    <marker date="1510538974508" expanded="true" signature="7840:7990" ph="SELECT id,da... " />
-                    <marker date="1510538974508" expanded="true" signature="8964:9062" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-                    <marker date="1510538974508" expanded="true" signature="8964:9071" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-                    <marker date="1510538974508" expanded="true" signature="9675:9758" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-                    <marker date="1510538974508" expanded="true" signature="9675:9784" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -70,8 +42,8 @@
           <file leaf-file-name="DownloadProgressPhoto.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadProgressPhoto.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -91,16 +63,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ExerciseRequestHandler.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/RequestHandlers/ExerciseRequestHandler.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="SIteConstants.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SIteConstants.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -114,8 +76,8 @@
           <file leaf-file-name="DownloadExercisePhoto.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadExercisePhoto.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -178,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,11 +152,22 @@
               <item name="WorkoutBuddy_Scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="FileDownloading" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="WorkoutBuddy_Scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkoutBuddy_Scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FileUploading" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="WorkoutBuddy_Scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkoutBuddy_Scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RequestHandlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,6 +177,3254 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1            " />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1            " />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1            " />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1            " />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1            " />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1            " />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="'wt5gtrbbbt'" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php&amp;userId=1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileDownloading/DownloadExercisePhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/WorkoutBuddy_scripts/FileUploading/UploadProgressPhoto.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="request" />
+                <option name="value" value="getDefaultExercises" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userID" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="local_path" />
+                <option name="value" value="test" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_time" />
+                <option name="value" value="2017-11-12 17:35:22" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="userId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="file_name" />
+                <option name="value" value="icon.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost" />
@@ -635,18 +3855,21 @@
       <workItem from="1510528228599" duration="3797000" />
       <workItem from="1510635117281" duration="487000" />
       <workItem from="1510709780079" duration="291000" />
-      <workItem from="1510763195409" duration="1250000" />
+      <workItem from="1510763195409" duration="1301000" />
+      <workItem from="1510774352331" duration="407000" />
+      <workItem from="1510787596629" duration="4414000" />
+      <workItem from="1510806573414" duration="1881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10291000" />
+    <option name="totallyTimeSpent" value="17044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27521843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17095852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -660,7 +3883,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -697,6 +3920,115 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadProgressPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUploading/UploadProgressPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RequestHandlers/ExerciseRequestHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIteConstants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DbOperations/Constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadExercisePhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RequestHandlers/ProgressPhotoRequestHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DbOperations/DbOperation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="264" column="32" lean-forward="false" selection-start-line="264" selection-start-column="32" selection-end-line="264" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadProgressPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUploading/UploadProgressPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RequestHandlers/ExerciseRequestHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIteConstants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadExercisePhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DbOperations/Constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RequestHandlers/ProgressPhotoRequestHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -709,23 +4041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3960">
           <caret line="264" column="32" lean-forward="false" selection-start-line="264" selection-start-column="32" selection-end-line="264" selection-end-column="32" />
-          <folding>
-            <marker date="1510538974508" expanded="true" signature="373:448" ph="SELECT exerc... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="1027:1169" ph="SELECT id,ex... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="2116:2244" ph="SELECT id,ma... WorkoutBuddy_mainworkout" />
-            <marker date="1510538974508" expanded="true" signature="2759:2866" ph="SELECT id,su... WorkoutBuddy_subworkout" />
-            <marker date="1510538974508" expanded="true" signature="3408:3529" ph="SELECT defau... WorkoutBuddy_subworkout_default_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4025:4144" ph="SELECT custo... WorkoutBuddy_subworkout_custom_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4723:4803" ph="SELECT id,ex... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="5311:5390" ph="SELECT exerc... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="6551:6700" ph="SELECT id,go... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7177:7322" ph="SELECT goal_... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7840:7990" ph="SELECT id,da... " />
-            <marker date="1510538974508" expanded="true" signature="8964:9062" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="8964:9071" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="9675:9758" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-            <marker date="1510538974508" expanded="true" signature="9675:9784" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,7 +4072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,23 +4095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3960">
           <caret line="264" column="32" lean-forward="false" selection-start-line="264" selection-start-column="32" selection-end-line="264" selection-end-column="32" />
-          <folding>
-            <marker date="1510538974508" expanded="true" signature="373:448" ph="SELECT exerc... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="1027:1169" ph="SELECT id,ex... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="2116:2244" ph="SELECT id,ma... WorkoutBuddy_mainworkout" />
-            <marker date="1510538974508" expanded="true" signature="2759:2866" ph="SELECT id,su... WorkoutBuddy_subworkout" />
-            <marker date="1510538974508" expanded="true" signature="3408:3529" ph="SELECT defau... WorkoutBuddy_subworkout_default_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4025:4144" ph="SELECT custo... WorkoutBuddy_subworkout_custom_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4723:4803" ph="SELECT id,ex... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="5311:5390" ph="SELECT exerc... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="6551:6700" ph="SELECT id,go... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7177:7322" ph="SELECT goal_... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7840:7990" ph="SELECT id,da... " />
-            <marker date="1510538974508" expanded="true" signature="8964:9062" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="8964:9071" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="9675:9758" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-            <marker date="1510538974508" expanded="true" signature="9675:9784" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,7 +4126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,23 +4173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3960">
           <caret line="264" column="32" lean-forward="false" selection-start-line="264" selection-start-column="32" selection-end-line="264" selection-end-column="32" />
-          <folding>
-            <marker date="1510538974508" expanded="true" signature="373:448" ph="SELECT exerc... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="1027:1169" ph="SELECT id,ex... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="2116:2244" ph="SELECT id,ma... WorkoutBuddy_mainworkout" />
-            <marker date="1510538974508" expanded="true" signature="2759:2866" ph="SELECT id,su... WorkoutBuddy_subworkout" />
-            <marker date="1510538974508" expanded="true" signature="3408:3529" ph="SELECT defau... WorkoutBuddy_subworkout_default_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4025:4144" ph="SELECT custo... WorkoutBuddy_subworkout_custom_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4723:4803" ph="SELECT id,ex... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="5311:5390" ph="SELECT exerc... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="6551:6700" ph="SELECT id,go... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7177:7322" ph="SELECT goal_... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7840:7990" ph="SELECT id,da... " />
-            <marker date="1510538974508" expanded="true" signature="8964:9062" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="8964:9071" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="9675:9758" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-            <marker date="1510538974508" expanded="true" signature="9675:9784" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,7 +4188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,23 +4227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3960">
           <caret line="264" column="26" lean-forward="false" selection-start-line="264" selection-start-column="26" selection-end-line="264" selection-end-column="26" />
-          <folding>
-            <marker date="1510538974508" expanded="true" signature="373:448" ph="SELECT exerc... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="1027:1169" ph="SELECT id,ex... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="2116:2244" ph="SELECT id,ma... WorkoutBuddy_mainworkout" />
-            <marker date="1510538974508" expanded="true" signature="2759:2866" ph="SELECT id,su... WorkoutBuddy_subworkout" />
-            <marker date="1510538974508" expanded="true" signature="3408:3529" ph="SELECT defau... WorkoutBuddy_subworkout_default_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4025:4144" ph="SELECT custo... WorkoutBuddy_subworkout_custom_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4723:4803" ph="SELECT id,ex... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="5311:5390" ph="SELECT exerc... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="6551:6700" ph="SELECT id,go... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7177:7322" ph="SELECT goal_... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7840:7990" ph="SELECT id,da... " />
-            <marker date="1510538974508" expanded="true" signature="8964:9062" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="8964:9071" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="9675:9758" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-            <marker date="1510538974508" expanded="true" signature="9675:9784" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,7 +4242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,10 +4253,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FileUploading/UploadProgressPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DbOperations/DbOperation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RequestHandlers/ExerciseRequestHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
+        <state relative-caret-position="286">
+          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RequestHandlers/ProgressPhotoRequestHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1009,46 +4291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DbOperations/DbOperation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="264" column="32" lean-forward="false" selection-start-line="264" selection-start-column="32" selection-end-line="264" selection-end-column="32" />
-          <folding>
-            <marker date="1510538974508" expanded="true" signature="373:448" ph="SELECT exerc... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="1027:1169" ph="SELECT id,ex... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="2116:2244" ph="SELECT id,ma... WorkoutBuddy_mainworkout" />
-            <marker date="1510538974508" expanded="true" signature="2759:2866" ph="SELECT id,su... WorkoutBuddy_subworkout" />
-            <marker date="1510538974508" expanded="true" signature="3408:3529" ph="SELECT defau... WorkoutBuddy_subworkout_default_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4025:4144" ph="SELECT custo... WorkoutBuddy_subworkout_custom_exercises" />
-            <marker date="1510538974508" expanded="true" signature="4723:4803" ph="SELECT id,ex... WorkoutBuddy_defaultexercise" />
-            <marker date="1510538974508" expanded="true" signature="5311:5390" ph="SELECT exerc... WorkoutBuddy_customexercise" />
-            <marker date="1510538974508" expanded="true" signature="6551:6700" ph="SELECT id,go... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7177:7322" ph="SELECT goal_... WorkoutBuddy_exercisegoals" />
-            <marker date="1510538974508" expanded="true" signature="7840:7990" ph="SELECT id,da... " />
-            <marker date="1510538974508" expanded="true" signature="8964:9062" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="8964:9071" ph="SELECT id,da... WorkoutBuddy_progressphoto" />
-            <marker date="1510538974508" expanded="true" signature="9675:9758" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-            <marker date="1510538974508" expanded="true" signature="9675:9784" ph="INSERT INTO WorkoutBuddy_progressphoto... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileUploading/UploadProgressPhoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RequestHandlers/ProgressPhotoRequestHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DbOperations/Constants.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1057,18 +4299,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadExercisePhoto.php">
+    <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadProgressPhoto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadProgressPhoto.php">
+    <entry file="file://$PROJECT_DIR$/FileDownloading/DownloadExercisePhoto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>

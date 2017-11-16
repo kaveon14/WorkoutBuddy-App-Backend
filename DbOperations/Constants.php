@@ -18,6 +18,6 @@ function getExercisePhotoDirectory($user_id) {
     if(empty($user_id)) {
         return '';
     }
-    return '/Users/kaveon14/WorkoutBuddy/WorkoutBuddySite/UserMedia/media/user_'.$user_id.'CustomExerciseImages/';
+    return '/Users/kaveon14/WorkoutBuddy/WorkoutBuddySite/UserMedia/media/user_'.$user_id.'/CustomExerciseImages/';
 }
 ?>
