@@ -3,40 +3,38 @@
 require_once '/Library/WebServer/Documents/WorkoutBuddy_Scripts/DbOperations/DbOperation.php';
 
 $response = array();
-
-$user_id = $_GET['userId'];
-$main_workout_id = $_GET['mainWorkoutId'];
-$sub_workout_id = $_GET['subWorkoutId'];
 $request_response = 'RequestResponse';
 
-if(isset($_GET['request'])) {
+function setSuccessfulResponse() {
+    $GLOBALS['response']['error'] = false;
+    $GLOBALS['response']['message'] = 'Request successfully completed';
+}
 
-    switch($_GET['request']) {
-        case 'getMainWorkoutNames':
-            $db = new DbOperation();
-            $response['error'] = false;
-            $response['message'] = 'Request successfully completed';
-            $response[$request_response] = $db->getMainWorkoutNames($user_id);
-            break;
-        case 'getSubWorkoutNames':
-            $db = new DbOperation();
-            $response['error'] = false;
-            $response['message'] = 'Request successfully completed';
-            $response[$request_response] = $db->getSubWorkoutNames($main_workout_id);
-            break;
-        case 'getGoalExercises':
-            $db = new DbOperation();
-            $response['error'] = false;
-            $response['message'] = 'Request successfully completed';
-            $response[$request_response] = $db->getGoalExercises($sub_workout_id);
-            break;
+function setFailedResponse() {
+    $GLOBALS['response']['error'] = true;
+    $GLOBALS['response']['message'] = 'Invalid API Call, Check Your Spelling';
+}
+
+if(isset($_GET['request'])) {
+    $request = $_GET['request'];
+    if($request =='getMainWorkoutNames' && isset($_GET['userId'])) {
+        $db = new DbOperation();
+        setSuccessfulResponse();
+        $response[$request_response] = $db->getMainWorkoutNames($_GET['userId']);
+    } else if($request == 'getSubWorkoutNames' && isset($_GET['mainWorkoutId'])) {
+        $db = new DbOperation();
+        setSuccessfulResponse();
+        $response[$request_response] = $db->getSubWorkoutNames($_GET['mainWorkoutId']);
+    } else if($request =='getGoalExercises' && isset($_GET['subWorkoutId'])) {
+        $db = new DbOperation();
+        setSuccessfulResponse();
+        $response[$request_response] = $db->getGoalExercises($_GET['subWorkoutId']);
+    } else {
+        setFailedResponse();
     }
 } else {
-
- $response['error'] = true; 
- $response['message'] = 'Invalid API Call';
+    setFailedResponse();
 }
-  
 echo json_encode($response);
 ?>
 
